@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: green;
+    font-size: xx-large;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.grid{
+    display: grid;  /* grid */
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    
+    grid-row-gap: 50px ;
+    grid-column-gap : 50px ;
+    border: 0px
+}
+
+.grid > div { 
+    background-color:  palegoldenrod;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
